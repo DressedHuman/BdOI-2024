@@ -1,5 +1,5 @@
 class Solution:
-    def medain(self, n, bit_array):
+    def median(self, n, bit_array):
         zero_count = 0
         for bit in bit_array:
             if bit == 0:
@@ -15,4 +15,4 @@ class Solution:
 if __name__=="__main__":
     n = int(input("Enter n: "))
     bit_array = list(map(int, input("Type the bit array: ").split()))
-    Solution().medain(n, bit_array)
+    Solution().median(n, bit_array)
